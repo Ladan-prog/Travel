@@ -1,0 +1,323 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26b9c7;
+  padding: 20px 50px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 1.1rem;
+  position: relative;
+}
+.banner{
+    background-image: url(/assets/images/banner-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+}
+.banner .para{
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    padding-top: 150px;
+}
+.banner .tittle{
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    font-size: xx-large; 
+}
+.buton button{
+    font-size: 14px;
+    color: #22b3c1;
+    background-color: transparent;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.buton button:hover{
+    background-color: #22b3c1;
+    color: white;
+}
+.explore{
+    background-color: white;
+    height: 120px;
+    border-radius: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.population i{
+    color: #22b3c1;
+    font-size: 47px;
+}
+.price i{
+    color: #22b3c1;
+    font-size: 47px;
+}
+.teritory i{
+    color: #22b3c1;
+    font-size: 47px;
+}
+.explore button{
+  margin-top: 35px;
+}
+.population span{
+  color: gray;
+}
+.price span{
+  color: gray;
+}
+.teritory span{
+  color: gray;
+}
+.teritory p{
+  color: #22b3c1;
+  font-weight: 900;
+}
+.price p{
+  color: #22b3c1;
+  font-weight: 900;
+}
+.population p{
+  color: #22b3c1;
+  font-weight: 900;
+}
+.city h2{
+  font-weight: 900;
+}
+.naran img{
+  width: 270px;
+  border-radius: 10px;
+  height: 255px;
+}
+.city-data{
+  display: flex;
+  justify-content: space-between;
+}
+.button button{
+   position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #22b3c1;
+    background-color: transparent;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.button button:hover{
+    background-color: #22b3c1;
+    color: white;
+}
+.city-name h3{
+  font-size: larger;
+  font-weight: 900;
+  font-size: 32px;
+}
+.city-name p{
+  color: gray;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.city-name h6{
+  color: gray;
+  margin-left: 10px;
+}
+iframe{
+  width: 100%;
+  height: 350px;
+}
+hr{
+  border: 0.001px solid rgb(186, 184, 184);
+}
+.page-link {
+    position: relative;
+    display: block;
+    color: #22b3c1;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 20px;
+    width: 46px;
+    padding: 14px;
+}
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #22b3c1;
+    border-color: #22b3c1;
+}
+footer{
+  background-image: url(/assets/images/cta-bg.jpg);
+  height: 240px;
+}
+.buttton button{
+  font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.buttton button:hover{
+    background-color:white;
+    color:#22b3c1;
+}
+.copy-right{
+  background-color: #22b3c1;
+  color: white;
+  text-align: center;
+  height: 60px;
+  padding-top: 10px;
+}
+.discover{
+    background-color: #22b3c1;
+    height: 120px;
+    border-radius: 0px 0px 40px 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.destination {
+  width: 200px;
+  color: white;
+  height: 50px;
+  background-color:#22b3c1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+}
+.reservation{
+  height: 370px;
+  background-color: rgb(249, 249, 246);
+  border-radius: 30px;
+}
+.naraan img{
+  width: 250px;
+  height: 300px;
+  border-radius: 30px 0px 0px 0px;
+}
+.offer p{
+  color: #22b3c1;
+}
+.butttton button{
+   position: absolute;
+    /* left: 34%; */
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #22b3c1;
+    background-color: transparent;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.butttton button:hover{
+    background-color: #22b3c1;
+    color: white;
+}.banner1{
+    background-image: url(/assets/images/heading-bg-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    text-align: center;
+}
+.banner1 .para{
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    padding-top: 190px;
+}
+.banner1 .tittle{
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    font-size: xx-large; 
+}
+.contact{
+  background-color:white;
+  box-shadow: 2px 2px 2px 2px rgb(129, 128, 128);
+  height: 200px;
+  border-radius: 30px;
+}
+.contact i{
+  position: relative;
+  top: 40px;
+  color: #22b3c1;
+  font-size: 30px;
+}
+.farm{
+  background-color: aliceblue;
+  width: 100%;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.icons i{
+    font-size: 20px;
+    color: #22b3c1;
+}
+.home button{
+     background-color:#e9f2f8;
+    color:#22b3c1;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.home button:hover{
+    background-color:#deedf7;
+}
+
+
